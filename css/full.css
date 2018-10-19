@@ -1,0 +1,267 @@
+/*!
+ * Start Bootstrap - Full (https://startbootstrap.com/template-overviews/full)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
+ */
+
+body {
+  background: url('https://dimg17.c-ctrip.com/images/fd/tg/g1/M01/83/0F/CghzfFWmFAOAEhD0AAm9ygUgj7g104_R_1000_10000_Q90.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#demo{font-size: 100px;
+position:relative;
+top:2.5em;
+text-align: center;
+color:white}
+
+#demo1{position:absolute;
+  left:16.35em;
+  top:2em;
+color:white;}
+
+#demo2{font-size:18px;
+position:absolute;
+top:9em;
+left:31em;
+text-align: center;
+color:white}
+
+#demo3{position:absolute;
+left:15.7em;
+top:2em;
+color:white;}
+
+#demo4{position:absolute;
+left:28em;
+top:9em;
+color:white;
+text-align: center;
+font-size: 18px}
+
+table{border-color: white;
+  position:absolute;left:23.5em;
+top:7em;width:25em;
+font-size: 20px;
+color:white;}
+
+img{width:320px;height:210px;padding-left:7em;position:relative;}
+
+#demo5{padding-left: 10em}
+.item{color:red;}
+
+#demo6{font-size: 16px}
+
+button{position:relative;
+top:9em;
+left:30em}
+
+#demo7{position:absolute;
+  left:31em;
+top:11em;
+text-align: center;
+color:white;
+font-size:18px}
+
+#panel, #flip {
+    padding: 15px;
+    width:20em;
+    text-align: center;
+}
+
+#panel {
+    width:31em;
+    display: none;
+    position:absolute;
+    top:28em;
+    left:3em;
+    color:white;
+    text-align:inherit;
+    border-style:double;
+    border-color: #848484;
+}
+
+#pic{width:400px;length:400px;
+position:absolute;
+left:-2.4em;
+top:-15em;}
+.btn-danger{position:absolute;
+left:14em;
+top:8em
+}
+
+#panel1, #flip1 {
+    padding: 15px;
+    width:15em;
+    position:absolute;
+    left:34em;
+    top:-1.8em;
+}
+
+#panel1 {
+    width:25em;
+    display: none;
+    position:absolute;
+    top:29em;
+    left:59em;
+    color:white;
+    border-style:double;
+    border-color: #848484;
+}
+
+#pic1{width:400px;length:400px;
+position:absolute;
+left:-4em;
+top:-15em}
+.btn-danger{position:absolute;
+left:14em;
+top:8em
+}
+
+.btn-success{position:absolute;
+left:34em;
+top:10em
+}
+
+#imp{position:absolute;
+left:37em;
+top:26em}
+
+#submit{position:absolute;
+left:49em;
+top:25.8em}
+
+#demo8{position:absolute;
+left:35em;
+top:28em;
+color:white;
+font-size:17px}
+
+#demo9{font-size:30px;
+position:absolute;
+top:3em;
+left:20em;
+text-align: center;
+color:white}
+
+.demo10{position:absolute;
+top:7em;
+left:13em;
+color:orange;
+font-size:20px}
+
+.btn-warning{position:absolute;
+top:1.8em;
+left:20em;}
+
+.dropdown{position:absolute;
+top:0em;
+left:3em;}
+
+.dropdown-menu{text-align: center;
+padding:1px}
+
+#item{position:relative;
+top:2em;
+left:1em;}
+
+#a{position:absolute;
+top:0em;
+left:16.3em;}
+
+#b{position:absolute;
+top:0em;
+left:16.3em;}
+
+#item1{position:relative;
+top:4em;
+left:1em;}
+
+#a1{position:absolute;
+top:0em;
+left:16.3em;}
+
+#b1{position:absolute;
+top:0em;
+left:16.3em;}
+
+#item2{position:relative;
+top:6em;
+left:1em;}
+
+#a2{position:absolute;
+top:0em;
+left:16.3em;}
+
+#b2{position:absolute;
+top:0em;
+left:16.3em;}
+
+#item3{position:relative;
+top:8em;
+left:1em;}
+
+#a3{position:absolute;
+top:0em;
+left:16.3em;}
+
+#b3{position:absolute;
+top:0em;
+left:16.3em;}
+
+#item4{position:relative;
+top:10em;
+left:1em;}
+
+#a4{position:absolute;
+top:0em;
+left:16.3em;}
+
+#b4{position:absolute;
+top:0em;
+left:16.3em;}
+
+.demo11{position:absolute;
+top:7.5em;
+left:40em;
+color:orange;
+font-size:20px}
+
+#item5{position:relative;
+top:4em;
+left:0em;}
+
+#a5{position:absolute;
+top:0em;
+left:24em;}
+
+#b5{position:absolute;
+top:0em;
+left:24em;}
+
+#item6{position:relative;
+top:6em;
+left:2em;}
+
+#a6{position:absolute;
+top:0em;
+left:21.5em;}
+
+#b6{position:absolute;
+top:0em;
+left:21.5em;}
+
+#item7{position:relative;
+top:8em;
+left:1em;}
+
+#a7{position:absolute;
+top:0em;
+left:23em;}
+
+#b7{position:absolute;
+top:0em;
+left:23em;}

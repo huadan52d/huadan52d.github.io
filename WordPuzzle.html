@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>詩詞賞析</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/full.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="windows.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">詩詞賞析</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="poetryB.html">詩文
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="translation.html">譯文</a><span class="sr-only">(current)</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="author.html">作者</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="WordPuzzle.html">詞句辨析</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="classic.html">名句賞析</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <h1 id="demo9"> 蜀道難·小測試 </h1>
+    <ul class="demo10">語謂辨析測試(只支持繁體輸入)
+    <li> 蜀道難 <input id="word" type="text"\><button type="button" class="btn btn-warning"onclick="showAnswer()">提交</button>
+    <div class="dropdown"><button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">答案<span class="caret"></span></button>
+    <ul class="dropdown-menu"><li>詞牌名</li></ul></div></div></li>
+    <li id="item"> 爾來<input id="word1" type="text"\><button type="button" id="a" class="btn btn-warning"onclick="showAnswer1()">提交</button>
+    <div class="dropdown"><button id="b" class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">答案<span class="caret"></span></button>
+    <ul class="dropdown-menu"><li>答案1:從那時起</li><li>答案2:從那時以來</li></ul></div></div></li>
+    <li id="item1"> 西當<input id="word2" type="text"\><button type="button" id="a1" class="btn btn-warning"onclick="showAnswer2()">提交</button>
+    <div class="dropdown"><button id="b1" class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">答案<span class="caret"></span></button>
+    <ul class="dropdown-menu"><li>答案1:對著西邊</li><li>答案2:向西對著</li></ul></div></div></li>
+    <li id="item2">畏途<input id="word3" type="text"\><button type="button" id="a2" class="btn btn-warning"onclick="showAnswer3()">提交</button>
+    <div class="dropdown"><button id="b2" class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">答案<span class="caret"></span></button>
+    <ul class="dropdown-menu"><li>可怕的路途</li></ul></div></div></li>
+    <li id="item3">但見<input id="word4" type="text"\><button type="button" id="a3" class="btn btn-warning"onclick="showAnswer4()">提交</button>
+    <div class="dropdown"><button id="b3" class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">答案<span class="caret"></span></button>
+    <ul class="dropdown-menu"><li>只聽見</li></ul></div></div></li>
+    <li id="item4">所守<input id="word5" type="text"\><button type="button" id="a4" class="btn btn-warning"onclick="showAnswer5()">提交</button>
+    <div class="dropdown"><button id="b4" class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">答案<span class="caret"></span></button>
+    <ul class="dropdown-menu"><li>守關人</li></ul></div></div></li></ul>
+
+    <ul class="demo11">句法辨析測試(只支持繁體輸入)
+      <li id="item5">上有六龍回日之高標<input id="word6" type="text"\><button type="button" id="a5" class="btn btn-warning"onclick="showAnswer6()">提交</button>
+      <div class="dropdown"><button id="b5" class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">答案<span class="caret"></span></button>
+      <ul class="dropdown-menu"><li>下有衝波逆折之回川</li></ul></div></div></li>
+      <li id="item6">連峯去天不盈尺<input id="word7" type="text"\><button type="button" id="a6" class="btn btn-warning"onclick="showAnswer7()">提交</button>
+     <div class="dropdown"><button id="b6" class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">答案<span class="caret"></span></button>
+     <ul class="dropdown-menu"><li>枯鬆倒掛倚絕壁</li></ul></div></div></li>
+     <li id="item7">朝避猛虎,夕避長蛇<input id="word8" type="text"\><button type="button" id="a7" class="btn btn-warning"onclick="showAnswer8()">提交</button>
+     <div class="dropdown"><button id="b7" class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">答案<span class="caret"></span></button>
+     <ul class="dropdown-menu"><li>磨牙吮血,殺人如麻</li></ul></div></div></li></ul>
+
+
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
